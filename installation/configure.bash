@@ -36,6 +36,7 @@ sudo mkdir /mnt/EdOLinux/opt && echo "< Made ./opt";
 sudo mkdir /mnt/EdOLinux/etc && echo "< Made ./etc";
 sudo mkdir /mnt/EdOLinux/cdrom && echo "< Made ./cdrom";
 sudo mkdir /mnt/EdOLinux/dev && echo "< Made ./dev";
+sudo mkdir /mnt/EdOLinux/bin && echo "< Made ./bin";
 
 echo "Make tool has finished.";
 
