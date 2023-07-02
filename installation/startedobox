@@ -1,0 +1,12 @@
+#!bin/bash
+defaultdirectory="/mnt/EdOLinux";
+isroot=true;
+while true
+do
+if [[ $isroot==true ]]
+then
+  echo "edobox@root~/" && read command;
+else
+  echo "edobox@no-box-admin~/" && read command;
+fi
+done;
