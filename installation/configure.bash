@@ -40,3 +40,14 @@ sudo mkdir /mnt/EdOLinux/dev && echo "< Made ./dev";
 echo "Make tool has finished.";
 
 echo "Copying files...";
+sudo cp ./apt /mnt/EdOLinux/bin;
+sudo cp ./apt-get /mnt/EdOLinux/bin;
+sudo cp ./bash /mnt/EdOLinux/bin;
+sudo cp ./pip /mnt/EdOLinux/bin;
+sudo cp ./python3 /mnt/EdOLinux/bin;
+sudo cp ./sudo /mnt/EdOLinux/bin;
+echo "Finished copying files.";
+echo "Compiling start script...";
+sudo cp ./startedobox /mnt/EdOLinux;
+echo "Compiled!";
+echo "Process finished, thank you for using EdOLinux!";
