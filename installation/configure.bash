@@ -50,7 +50,7 @@ sudo cp ./sudo /mnt/EdOLinux/bin;
 
 echo "Finished copying files.";
 echo "Making sure files are up to date...";
-sudo chmod +x /mnt/EdOLinux/bin/* && sudo chown root:root sudo && sudo chmod 4755 sudo;
+sudo chmod +x /mnt/EdOLinux/bin/* && sudo chown root:root /mnt/EdOLinux/bin/sudo && sudo chmod 4755 /mnt/EdOLinux/bin/sudo;
 echo "Compiling start script...";
 sudo cp ./startedobox /mnt/EdOLinux;
 echo "Compiled!";
