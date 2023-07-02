@@ -1,3 +1,4 @@
+#!/bin/bash
 #### ~ ! MAKE UTILITY FOR THE INSTALLATION OF EDOLINUX ONLY ! ~ ####
 ############ ~ OTHER SYSTEMS ARE NOT SUPPORTED ~ ############
 titlescreen="""
