@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo chmod +x ./installjob;
 sudo chmod +x ./make.sh;
 sudo chmod -w ./configure.bash;
