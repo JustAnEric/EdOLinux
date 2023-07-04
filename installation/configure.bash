@@ -15,6 +15,8 @@ sudo bash make.sh --make-prg;
 sudo bash make.sh --make-python3;
 sudo bash make.sh --make-pip;
 sudo bash make.sh --make-pip3;
+sudo bash make.sh --make-ls;
+sudo bash make.sh --make-cd;
 
 echo "Utilities have been installed.";
 echo "Mounting EdOLinux...";
