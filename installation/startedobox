@@ -1,12 +1,12 @@
-#!bin/bash
-defaultdirectory="/mnt/EdOLinux";
-isroot=true;
-while true
-do
-if [[ $isroot==true ]]
-then
-  echo "edobox@root~/" && read command;
-else
-  echo "edobox@no-box-admin~/" && read command;
-fi
-done;
+#!bin/python3
+import os
+
+def edobox(command):
+  # check if the command exists inside edobox.
+
+os.system('clear')
+while True:
+  command = input("root@edobox-linux:/$ ");
+  if (command.split(' ')[0]) {
+    print("Unknown query.")
+  }
