@@ -35,4 +35,12 @@ if [[ $1=="--make-pip" ]]
 then
   echo "Copying pip/pip3 [/usr/bin/pip] and modifying..." && sudo cp $defaultpippathonlinux .;
 fi;
+if [[ $1=="--make-ls" ]]
+then
+  echo "Copying ls [/usr/bin/ls] and modifying..." && sudo cp /usr/bin/ls .;
+fi;
+if [[ $1=="--make-cd" ]]
+then
+  echo "Copying ls [/usr/bin/cd] and modifying..." && sudo cp /usr/bin/cd .;
+fi;
 echo "Make.sh utility job has finished."
